@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+}
+
+a {
+  color: #1459b8;
+}
+
+.shell {
+  width: min(960px, calc(100vw - 48px));
+  margin: 48px auto;
+}
+
+.page {
+  margin-top: 24px;
+  padding: 24px;
+  border: 1px solid #d8e0ec;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.placeholder {
+  padding: 16px;
+  border: 1px dashed #93a4bb;
+  border-radius: 6px;
+  background: #fafcff;
+}
