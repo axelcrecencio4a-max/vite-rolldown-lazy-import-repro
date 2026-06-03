@@ -1,3 +1,14 @@
-import { Placeholder } from '../../page'
+import styles from './styles.module.css'
 
-export const Page4 = () => <Placeholder title="Page 4" />
+import someSvg from '../../../assets/somesvg.svg'
+
+
+export const Page4 = () => {
+    return (
+        <div className={styles.sectionBackground}>
+            <div>
+                <img src={someSvg} width='400' height='400' />
+            </div>
+        </div> 
+    )
+} 
